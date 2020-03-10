@@ -1,0 +1,155 @@
+/*
+font-family: 'Marvel', sans-serif;
+font-family: 'Rye', cursive;
+
+Red=#C20114
+Blue=#473BF0
+Black=#0C120C
+
+*/
+html{
+	scroll-behavior:smooth;
+}
+* {
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background-color: #473BF0;
+}
+
+p{
+	font-family: 'Marvel', sans-serif;
+	color:;
+	webkit-text-stroke: 1px red;
+
+}
+
+h1{
+	font-family: 'Rye', cursive;
+	color: red;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+h2 {
+	font-family: 'Marvel', sans-serif;
+}
+
+h3 {
+	font-family: 'Marvel', sans-serif;
+}
+
+.intro {
+	background-image: url(white-diamond.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.intro li {
+	margin: 0 20px;
+}
+
+.intro a {
+	font-family: 'Rye', cursive;
+	color: red;
+	text-decoration: none;
+	font-size: 30px;
+	background-color: white;
+	padding: 10px;
+}
+
+.music {
+	background-image: url(red-blue.png);
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.music h2 {
+	width: 100%;
+}
+.music div.left, .music div.right {
+	width: 50%;
+}
+.right p{
+	color:white;
+}
+.left p{
+	color:white;
+}
+.homepage{
+	background-image: url(red-diamond.png);
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	display: flex;
+}
+.homepage div{
+	width: 50%;
+}
+
+.intro-images {
+	display: flex;
+}
+.intro-images div {
+	width: 50%;
+}
+.intro-images div img {
+	width: 50%;
+}
+.image-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.image-row img {
+	width: 200px;
+	margin: 0 50px;
+}
+
+.bio {
+	background-image: url(Artboard.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 100px;
+}
+
+.bio p {
+	font-family: 'Rye', cursive;
+	color: white;
+	font-size: 45px;
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.social div {
+	display: flex;
+	align-items: center;
+}
+.social p {
+	font-family: 'Marvel', sans-serif;
+}
+
+
+
+
+
+
+
